@@ -1,0 +1,129 @@
+header {
+    text-align: center;
+    padding: 1.25rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #A78BFA;
+    padding: 1rem;
+}
+
+header .icones {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+    justify-items: center;
+    margin-top: 1rem;
+}
+
+.icones i {
+    font-size: 2.5rem;
+    color: #E5E7EB;
+
+}
+
+.sobre {
+    text-align: center;
+    padding: 1rem;
+}
+
+.sobre h2 {
+    padding: 1rem;
+    font-size: 2rem;
+    color: #A78BFA;
+}
+
+.sobre p {
+    margin: 0 auto;
+    max-width: 60ch;
+    color: #D1D5DB;
+}
+
+.projetos {
+    padding: 1.25rem;
+    margin: 0 auto;
+}
+
+.projetos h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 3rem;
+    color: #A78BFA;
+}
+
+.projetos p {
+    color: #D1D5DB;
+    font-weight: 500;
+}
+
+.projetos .galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 3fr));
+    gap: 0.5rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.projetos img {
+    width: 100%;
+    max-width: 20rem;
+    height: auto;
+    opacity: 0.6;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    padding: 1.5rem;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.contato a i {
+    font-size: 2rem;
+    color: #9CA3AF;
+
+}
+
+.filtros{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.filtros button {
+    background-color: #9CA3AF;
+    color: black;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    margin: 0 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.sobre,
+.projeto01,
+.projeto02,
+.projeto03 {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.6s ease;
+   
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}

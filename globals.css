@@ -1,0 +1,11 @@
+body {
+    background-image:  linear-gradient(
+            rgba(50, 50, 50, 0.70),
+            rgba(50, 50, 50, 0.70)
+        ), url(./img/Mobile.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-family: cinzel, sans-serif;
+    font-size: 1.25rem;
+}
