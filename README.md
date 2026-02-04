@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 💼 John Lenon Ferreira – Portfólio Web
 
 Portfólio pessoal desenvolvido para apresentar meus projetos, habilidades e trajetória como desenvolvedor web em formação.
@@ -51,3 +52,6 @@ Tive sim alguns problemas principalmente em JS para fazer rodar os códigos, sim
 ├── media.css
 ├── script.js
 └── img/
+=======
+# meu-portifiolio
+>>>>>>> 77d7cb9339beb14185447f8886ec37ae2af7d870
